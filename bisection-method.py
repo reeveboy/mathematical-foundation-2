@@ -36,7 +36,7 @@ while True:
     print("xl and xu are invalid. Pick new points")
 
 iteration = 0
-xrs = [xr[0]]
+xrs = []
 error = 100
 
 while True:
