@@ -47,7 +47,7 @@ while True:
 
   temp = xl[1] * xr[1]
 
-  if iteration > 1:
+  if iteration > 0:
     error = (xrs[iteration] - xrs[iteration-1]) / xrs[iteration]
 
   if temp < 0:
